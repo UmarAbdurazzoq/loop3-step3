@@ -25,7 +25,8 @@ body {
 
 .hero-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .justice-league {
@@ -55,9 +56,12 @@ img {
     transform: scale(0);
     transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
-
+.justice-league:hover{
+    z-index: 5;
+}
 .justice-league:hover .justice-league__info {
     transform: scale(1);
+
 }
 
 .btn {
