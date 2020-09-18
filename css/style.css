@@ -44,7 +44,7 @@ img {
     left: -25px;
     position: absolute;
     width: 335px;
-    height: 585px;
+    min-height: 585px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
