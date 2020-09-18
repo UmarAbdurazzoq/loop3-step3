@@ -29,7 +29,7 @@ body {
     flex-wrap: wrap;
 }
 
-.justice-league {
+.box {
     z-index: 1;
     position: relative;
 }
@@ -38,7 +38,7 @@ img {
     box-shadow: 0 1px 15px black;
 }
 
-.justice-league__info {
+.box__info {
     top: 25px;
     z-index: -1;
     left: -25px;
@@ -56,10 +56,10 @@ img {
     transform: scale(0);
     transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
-.justice-league:hover{
+.box:hover{
     z-index: 5;
 }
-.justice-league:hover .justice-league__info {
+.box:hover .box__info {
     transform: scale(1);
 
 }
@@ -77,23 +77,23 @@ img {
     transition: background-color 0.3s ease;
 }
 
-.justice-league__info p {
+.box__info p {
     color: rgba(0, 0, 0, 0.5);
     margin: 0;
     margin-top: 5px;
     
 }
 
-.justice-league__info h3 {
+.box__info h3 {
 
     text-transform: uppercase;
     margin: 0;
 }
-.justice-league__info s {
+.box__info s {
     color: gray;
 }
 
-.justice-league__info span {
+.box__info span {
     font-size: 20px;
     color: lightgreen;
     font-weight: bold;
